@@ -1,0 +1,4 @@
+Getting this error in nodejs environment
+
+C:\Users\sulth\workspace\sulthanallaudeen\problem_solving\basic\roy_profile_picture\test.js:23
+    currentmeasure = currentmeasure.split(" ");
