@@ -14,8 +14,6 @@ Power Shell
 ```
 ## Workouts
 
-## Workouts
-
 | Problem       | Date       | Status     | URL                        |
 | ------------- | ---------- | ---------- | -------------------------- |
 | Toggle String Case      | 2025-03-20 | Completed  | https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/modify-the-string/ |
@@ -26,10 +24,3 @@ Power Shell
 
 Power Shell
 Get-Content test.txt | node test.js
-
-
-__________________
-Problems from : https://www.hackerearth.com/practice
-
-Yet to solve : https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/roy-and-profile-picture/
-
