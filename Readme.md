@@ -18,8 +18,9 @@ Power Shell
 
 | Problem       | Date       | Status     | URL                        |
 | ------------- | ---------- | ---------- | -------------------------- |
-| Change String Case      | 2025-03-20 | Completed  | https://example.com/pushup |
-| Squats        | 2025-03-21 | Pending    | https://example.com/squats |
+| Toggle String Case      | 2025-03-20 | Completed  | https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/modify-the-string/ |
+| Factorial        | 2025-03-20 | Completed    | https://www.hackerearth.com/problem/algorithm/find-factorial/ |
+| Roy Profile Picture        | 2025-03-21 | In Progress    | https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/roy-and-profile-picture/ |
 
 
 
