@@ -1,0 +1,183 @@
+Certainly! Below are **practical programs** demonstrating each of the JavaScript functions mentioned earlier.  
+
+---
+
+## **1. String Functions**
+
+### **1.1 `toUpperCase()` / `toLowerCase()`**
+```javascript
+let str = "Hello World";
+console.log(str.toUpperCase()); // "HELLO WORLD"
+console.log(str.toLowerCase()); // "hello world"
+```
+
+### **1.2 `startsWith()` / `endsWith()`**
+```javascript
+let filename = "document.pdf";
+console.log(filename.endsWith(".pdf")); // true
+console.log(filename.startsWith("doc")); // true
+```
+
+### **1.3 `replace()` / `replaceAll()`**
+```javascript
+let sentence = "I love cats. Cats are cute!";
+console.log(sentence.replace("cats", "dogs")); // "I love dogs. Cats are cute!"
+console.log(sentence.replaceAll(/cats/gi, "dogs")); // "I love dogs. Dogs are cute!"
+```
+
+### **1.4 `substring()` / `slice()`**
+```javascript
+let text = "JavaScript";
+console.log(text.substring(0, 4)); // "Java"
+console.log(text.slice(-6)); // "Script" (negative index)
+```
+
+### **1.5 `charAt()` / `charCodeAt()`**
+```javascript
+let word = "Hello";
+console.log(word.charAt(1)); // "e"
+console.log(word.charCodeAt(1)); // 101 (Unicode of 'e')
+```
+
+### **1.6 `indexOf()` / `lastIndexOf()`**
+```javascript
+let str = "Hello World";
+console.log(str.indexOf("o")); // 4
+console.log(str.lastIndexOf("o")); // 7
+```
+
+### **1.7 `padStart()` / `padEnd()`**
+```javascript
+let num = "7";
+console.log(num.padStart(3, "0")); // "007"
+console.log(num.padEnd(5, "*")); // "7****"
+```
+
+### **1.8 `repeat()`**
+```javascript
+let laugh = "Ha";
+console.log(laugh.repeat(3)); // "HaHaHa"
+```
+
+### **1.9 `match()` / `matchAll()`**
+```javascript
+let email = "test@example.com";
+console.log(email.match(/^\S+@\S+\.\S+$/)); // ["test@example.com"]
+```
+
+### **1.10 `trimStart()` / `trimEnd()`**
+```javascript
+let paddedStr = "   Hello   ";
+console.log(paddedStr.trimStart()); // "Hello   "
+console.log(paddedStr.trimEnd()); // "   Hello"
+```
+
+---
+
+## **2. Array Functions**
+
+### **2.1 `map()`**
+```javascript
+let nums = [1, 2, 3];
+console.log(nums.map(x => x * 2)); // [2, 4, 6]
+```
+
+### **2.2 `filter()`**
+```javascript
+let ages = [18, 22, 15, 30];
+console.log(ages.filter(age => age >= 18)); // [18, 22, 30]
+```
+
+### **2.3 `reduce()`**
+```javascript
+let numbers = [1, 2, 3, 4];
+console.log(numbers.reduce((sum, num) => sum + num, 0)); // 10
+```
+
+### **2.4 `find()` / `findIndex()`**
+```javascript
+let users = [{ id: 1 }, { id: 2 }, { id: 3 }];
+console.log(users.find(user => user.id === 2)); // { id: 2 }
+console.log(users.findIndex(user => user.id === 2)); // 1
+```
+
+### **2.5 `some()` / `every()`**
+```javascript
+let scores = [80, 90, 70];
+console.log(scores.some(score => score > 85)); // true (at least one)
+console.log(scores.every(score => score > 60)); // true (all)
+```
+
+### **2.6 `sort()`**
+```javascript
+let fruits = ["Banana", "Apple", "Mango"];
+console.log(fruits.sort()); // ["Apple", "Banana", "Mango"]
+```
+
+### **2.7 `concat()`**
+```javascript
+let arr1 = [1, 2], arr2 = [3, 4];
+console.log(arr1.concat(arr2)); // [1, 2, 3, 4]
+```
+
+### **2.8 `flat()` / `flatMap()`**
+```javascript
+let nested = [1, [2, [3]]];
+console.log(nested.flat(2)); // [1, 2, 3]
+```
+
+### **2.9 `join()`**
+```javascript
+let words = ["Hello", "World"];
+console.log(words.join(" ")); // "Hello World"
+```
+
+### **2.10 `Array.from()`**
+```javascript
+console.log(Array.from("12345", Number)); // [1, 2, 3, 4, 5]
+```
+
+---
+
+## **3. Bonus: Modern JavaScript (ES6+)**
+
+### **3.1 Template Literals**
+```javascript
+let name = "Alice";
+console.log(`Hello, ${name}!`); // "Hello, Alice!"
+```
+
+### **3.2 Destructuring**
+```javascript
+let [a, b] = [1, 2];
+console.log(a, b); // 1 2
+```
+
+### **3.3 Spread Operator (`...`)**
+```javascript
+let arr1 = [1, 2], arr2 = [3, 4];
+console.log([...arr1, ...arr2]); // [1, 2, 3, 4]
+```
+
+### **3.4 Arrow Functions**
+```javascript
+const square = x => x * x;
+console.log(square(5)); // 25
+```
+
+### **3.5 Optional Chaining (`?.`)**
+```javascript
+let user = { name: "Bob" };
+console.log(user?.address?.city); // undefined (no error)
+```
+
+### **3.6 Nullish Coalescing (`??`)**
+```javascript
+let input = null;
+console.log(input ?? "Default"); // "Default"
+```
+
+---
+
+### **Final Thoughts**
+These examples cover **string manipulation**, **array operations**, and **modern JS features**. Would you like me to explain any specific function in more detail? 😊
